@@ -29,7 +29,7 @@
       "ashland": "file(ashland/manifest.json)"
    },
    "generation_file": "file(ashland_generation_data.json)",
-   "growth_duration_multiplier": 2.30,
+   "growth_duration_multiplier": 2,
    "decay_multiplier": 0.80,
    "default_starting_season": "winter",
    "seasons": {

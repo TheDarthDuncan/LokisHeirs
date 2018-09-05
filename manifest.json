@@ -3,11 +3,12 @@
 		"name" : "Loki's Heirs",
 		"namespace" : "lokis_heirs",
 		"version" : 3,
-		"steam_file_id" : "1503125297"
+		"steam_file_id" : "1503125297",
+		"__comment" : "Created by MaddyGrand"
 	},
 	"default_locale" : "en",
 	"aliases" : {
-	"biome:ashland": "file(data/biome/ashland.json)",
+	"biome:ashland": "file(data/biome/ashland.json)"
 	},
 	"mixintos" : {
 	"stonehearth:biome:index": "file(data/biome/index.json)"
