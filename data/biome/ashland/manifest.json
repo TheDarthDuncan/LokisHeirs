@@ -1,0 +1,19 @@
+{
+   "info" : {
+      "name" : "ashland_manifest",
+      "deferred_load": true,
+      "version" : 3
+   },
+   "aliases" : {
+   "lokis_heirs:trees:cinis:seed": "file(data/biome/ashland/entities/trees/cinis_tree/seed/tree_cinis_seed.json)",
+   "lokis_heirs:trees:cinis:sprout": "file(data/biome/ashland/entities/trees/cinis_tree/sprout/tree_cinis_sprout.json)",
+   "lokis_heirs:trees:cinis:stem": "file(data/biome/ashland/entities/trees/cinis_tree/stem/tree_cinis_plant_stem.json)",
+   "lokis_heirs:trees:cinis:bud": "file(data/biome/ashland/entities/trees/cinis_tree/bud/tree_cinis_plant_bud.json)",
+   
+   },
+   "mixintos" :  {
+   "stonehearth:trapper:trapping_grounds": "file(ashland_trapping_grounds.json)",
+   },
+   "overrides" : {
+   }
+}

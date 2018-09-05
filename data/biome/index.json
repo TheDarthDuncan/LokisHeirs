@@ -1,0 +1,6 @@
+{
+   "type": "index",
+   "biomes": {
+	  "ashland": "file(ashland.json)"
+   }
+}

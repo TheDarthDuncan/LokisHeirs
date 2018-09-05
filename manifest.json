@@ -1,0 +1,19 @@
+{
+	"info" : {
+		"name" : "Loki's Heirs",
+		"namespace" : "lokis_heirs",
+		"version" : 3,
+		"steam_file_id" : "1503125297"
+	},
+	"default_locale" : "en",
+	"aliases" : {
+	"biome:ashland": "file(data/biome/ashland.json)",
+	},
+	"mixintos" : {
+	"stonehearth:biome:index": "file(data/biome/index.json)"
+	},
+	"overrides" : {
+	},
+	"components" : {},
+	"controllers" : {}
+}

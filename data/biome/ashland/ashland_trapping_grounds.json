@@ -1,0 +1,13 @@
+{
+   "components": {
+      "stonehearth:trapping_grounds": {
+         "trappable_animal_weights": {
+            "bugs": {
+               "stonehearth:doodles": 35,
+               "stonehearth:beetle": 75,
+               "stonehearth:bitsy_ant": 35
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,173 @@
+{
+   "type": "biome",
+   "alias": "lokis_heirs:biome:ashland",
+   "display_name": "i18n(lokis_heirs:data.biome.ashland.display_name)",
+   "description": "i18n(lokis_heirs:data.biome.ashland.description)",
+   "random_location_names": [
+      "i18n(lokis_heirs:data.biome.ashland.random_location_names.000)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.001)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.002)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.003)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.004)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.005)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.006)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.007)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.008)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.009)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.010)",
+	  "i18n(lokis_heirs:data.biome.ashland.random_location_names.011)"
+   ],
+   "image": "file(images/heir_butcher_400x300.png)",
+   "story_board_image": "file(images/heir_butcher_1520x1560.png)",
+   "game_mode_images": {
+      "stonehearth:game_mode:peaceful": "file(images/story_mode_peaceful.png)",
+      "stonehearth:game_mode:normal": "file(images/story_mode_normal.png)",
+      "stonehearth:game_mode:hard": "file(images/story_mode_hard.png)"
+   },
+   "mining_loot_table": "file(ashland_mining_loot_table.json)",
+   "applied_manifests": {
+      "ashland": "file(ashland/manifest.json)"
+   },
+   "generation_file": "file(ashland_generation_data.json)",
+   "growth_duration_multiplier": 2.30,
+   "decay_multiplier": 0.80,
+   "default_starting_season": "winter",
+   "seasons": {
+      "spring": {
+         "display_name": "i18n(stonehearth:data.biome.arctic.seasons.spring.display_name)",
+         "description": "i18n(stonehearth:data.biome.arctic.seasons.spring.description)",
+         "start_day": 0,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 8
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:rain:sunny",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:foggy",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.04
+            }
+         ]
+      },
+      "summer": {
+         "display_name": "i18n(stonehearth:data.biome.arctic.seasons.summer.display_name)",
+         "description": "i18n(stonehearth:data.biome.arctic.seasons.summer.description)",
+         "start_day": 7,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 12
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 8
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:rain:sunny",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:snow",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:snow:sunny",
+               "weight": 1
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.05
+            }
+         ]
+      },
+      "autumn": {
+         "display_name": "i18n(stonehearth:data.biome.arctic.seasons.autumn.display_name)",
+         "description": "i18n(stonehearth:data.biome.arctic.seasons.autumn.description)",
+         "start_day": 28,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 5
+            },
+            {
+               "uri": "stonehearth:weather:snow",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:snow:sunny",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:foggy",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:blizzard",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.04
+            }
+         ]
+      },
+      "winter": {
+         "display_name": "i18n(stonehearth:data.biome.arctic.seasons.winter.display_name)",
+         "description": "i18n(stonehearth:data.biome.arctic.seasons.winter.description)",
+         "start_day": 35,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 7
+            },
+            {
+               "uri": "stonehearth:weather:snow",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:snow:sunny",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:blizzard",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.03
+            }
+         ]
+      }
+   }
+}
