@@ -1,0 +1,62 @@
+{
+   "mixins": "stonehearth:mixins:tree",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(tree_dead_large_1.qb)",
+			   "file(tree_dead_large_2.qb)",
+			   "file(tree_dead_large_3.qb)"
+            ]
+         }
+      },
+      "stonehearth:resource_node": {
+         "durability": 13,
+         "resource": "stonehearth:resources:wood:cinis_log",
+         "resource_loot_table": {
+            "entries": {
+               "optional": {
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 1
+                  }
+               }
+            }
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 3, "y": 1, "z": 3 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 3, "y": 27, "z": 3 }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(lokis_heirs:entities.trees.dead_tree.tree_dead_large.description)",
+         "display_name": "i18n(lokis_heirs:entities.trees.dead_tree.tree_dead_large.display_name)"
+      },
+      "stonehearth:appeal": {
+         "appeal": -2
+      }
+   }
+}
